@@ -22,7 +22,7 @@ await connectDB()
 await connectCloudinary()
 
 // Allow Multiple Origins
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['https://aaahar-food-delivery-app.vercel.app']
 
 // Middleware Configuration
 app.use(express.json());
